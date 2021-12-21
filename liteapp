@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:52:21.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xWmDeUGLe6nYZeKfhX2g" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T09:00:50.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="-Jl1keOH21OvhCwuIaEq" version="16.0.0" type="github">
   <diagram id="LCL72ezkuaZhbpUAx00q" name="liteapp">
     <mxGraphModel dx="2921" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -79,13 +79,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="E3lt4HnLegC1vujUn2Ax-22" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;LauncherLiteApp&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-330" y="40" width="120" height="375" as="geometry" />
+          <mxGeometry x="-330" y="40" width="120" height="690" as="geometry" />
         </mxCell>
         <mxCell id="E3lt4HnLegC1vujUn2Ax-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="E3lt4HnLegC1vujUn2Ax-22" vertex="1">
           <mxGeometry x="55" y="190" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E3lt4HnLegC1vujUn2Ax-22">
           <mxGeometry x="55" y="295" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E3lt4HnLegC1vujUn2Ax-22">
+          <mxGeometry x="55" y="600" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E3lt4HnLegC1vujUn2Ax-32" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;onScrollChange&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.5;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="0.3864" width="80" relative="1" as="geometry">
@@ -103,8 +106,8 @@
             <mxPoint x="-185" y="269.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vJmIU086OmEsP22aTNbK-11" value="LauncherModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="40" width="100" height="340" as="geometry" />
+        <mxCell id="vJmIU086OmEsP22aTNbK-11" value="LauncherModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="-1010" y="40" width="100" height="560" as="geometry" />
         </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vJmIU086OmEsP22aTNbK-11">
           <mxGeometry x="45" y="240" width="10" height="80" as="geometry" />
@@ -134,7 +137,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-19" value="Launcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-1326" y="40" width="105" height="630" as="geometry" />
+          <mxGeometry x="-1326" y="40" width="105" height="690" as="geometry" />
         </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vJmIU086OmEsP22aTNbK-19">
           <mxGeometry x="45" y="349" width="10" height="80" as="geometry" />
@@ -143,6 +146,15 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="56" y="489" as="sourcePoint" />
             <mxPoint x="645.5" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vJmIU086OmEsP22aTNbK-19">
+          <mxGeometry x="46" y="610" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-36" value="onResume" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="vJmIU086OmEsP22aTNbK-19" target="E3lt4HnLegC1vujUn2Ax-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="46" y="650" as="sourcePoint" />
+            <mxPoint x="126" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-22" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;quot;consolas&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;addLiteAppScreen&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
@@ -166,6 +178,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="-1265.47" y="476" as="sourcePoint" />
             <mxPoint x="-680.5" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-34" value="onResume" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1360" y="670" as="sourcePoint" />
+            <mxPoint x="-1280" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
