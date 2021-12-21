@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T08:31:28.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="WaOYHNReAlQW9gPN5m-k" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T08:39:18.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="34MGW1yziOCyBNkeAe91" version="16.0.0" type="github">
   <diagram id="LCL72ezkuaZhbpUAx00q" name="liteapp">
     <mxGraphModel dx="2921" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
           <mxGeometry x="45" y="230" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E3lt4HnLegC1vujUn2Ax-6" value="Workspace" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="-730" y="40" width="100" height="530" as="geometry" />
         </mxCell>
         <mxCell id="E3lt4HnLegC1vujUn2Ax-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="E3lt4HnLegC1vujUn2Ax-6" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
@@ -59,6 +59,9 @@
               <mxPoint x="90" y="150" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="E3lt4HnLegC1vujUn2Ax-6">
+          <mxGeometry x="44" y="420" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="E3lt4HnLegC1vujUn2Ax-8" value="&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" parent="1" target="E3lt4HnLegC1vujUn2Ax-10" edge="1">
           <mxGeometry x="-0.875" y="50" relative="1" as="geometry">
@@ -98,7 +101,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-11" value="LauncherModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="40" width="100" height="320" as="geometry" />
+          <mxGeometry x="-1010" y="40" width="100" height="340" as="geometry" />
         </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vJmIU086OmEsP22aTNbK-11">
           <mxGeometry x="45" y="240" width="10" height="80" as="geometry" />
@@ -109,11 +112,51 @@
             <mxPoint x="130" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vJmIU086OmEsP22aTNbK-11">
+          <mxGeometry x="740" y="320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-18" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;quot;consolas&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;getUserInfo&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="vJmIU086OmEsP22aTNbK-17" parent="vJmIU086OmEsP22aTNbK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="775" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vJmIU086OmEsP22aTNbK-12" value="com.patac.hmi.users.action.accountLogin" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="vJmIU086OmEsP22aTNbK-13">
           <mxGeometry x="-0.4444" y="10" width="60" relative="1" as="geometry">
             <mxPoint x="-1140" y="320" as="sourcePoint" />
             <mxPoint x="-960" y="320" as="targetPoint" />
             <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-19" value="Launcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1326" y="40" width="105" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vJmIU086OmEsP22aTNbK-19">
+          <mxGeometry x="45" y="349" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-22" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;quot;consolas&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;addLiteAppScreen&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-270" y="411" as="sourcePoint" />
+            <mxPoint x="-1270" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-1275" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-28" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;quot;consolas&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;openLiteApp&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="vJmIU086OmEsP22aTNbK-27" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1270" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1240" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vJmIU086OmEsP22aTNbK-30" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;quot;consolas&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;notifyLiteAppScroll&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.953;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vJmIU086OmEsP22aTNbK-27" target="E3lt4HnLegC1vujUn2Ax-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-1260" y="480" as="sourcePoint" />
+            <mxPoint x="-1180" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
